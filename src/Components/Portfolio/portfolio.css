@@ -1,0 +1,50 @@
+#works{
+    min-height: calc(100vh-4rem);
+    width: 100vh;
+    max-width:60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.5;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 0 1rem;
+    
+}
+
+.wtitle, .wdesc{
+margin: 3rem;
+
+align-items: center;
+}
+
+ .wimgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 80px;
+    width: 100vw;
+    max-width:65rem; 
+    flex-wrap: wrap;
+    margin: 2rem;
+ }
+
+ .wrkimg{
+    margin: 2rem;
+    background-color: rgb(184, 118, 246);
+    object-fit: cover;
+    height: 20rem;
+    margin: 1rem;
+    border-radius: 2rem;
+ }
+
+ .wbtn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 3rem;
+   font-weight: 600;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }

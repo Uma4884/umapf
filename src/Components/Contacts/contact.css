@@ -1,0 +1,66 @@
+#contactpg{
+    min-width: calc(100vh-4rem);
+    width: 100vm;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cnttitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    
+    align-items: center;
+}
+.cntdesc{
+        margin: 2rem;
+        padding: 1rem;
+        font-size: medium;
+        font-weight: 400;
+    }
+
+    .cntform{
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* width: 90vw;
+        max-width: 60rem;  */
+    }
+.cname, .cemail, .cmsg {
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding:0.5rem 0.5rem ;
+    color: white;
+    border: none;
+    border-radius: 0.5rem; 
+    background: rgb(68, 32, 100);
+}
+.cntbtn{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem 0.5rem;
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    
+}
+
+.Links{
+  display: flex;
+  flex-wrap: wrap;
+}
+.imglink{
+    margin: 1rem;
+    object-fit: cover;
+    height:3rem;
+    width: 3rem;
+}

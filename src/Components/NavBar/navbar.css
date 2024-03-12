@@ -1,0 +1,80 @@
+.navbar{
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+    height: 5rem;
+    width:l00vw;
+    background-color:rgb(40, 19, 59);
+    display: flex;
+    
+    align-items: center;
+    position: sticky;
+    z-index: 3;
+    top: 0%;
+    
+}
+
+.logo{
+object-fit: cover;
+}
+
+.desktopmenulists{
+    margin: 2rem;
+    cursor: pointer;    
+    border-radius: 1rem;
+    font-size:large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.desktopmenubtn{
+    height: 3rem;
+    width: 5rem;
+    background-color: white;
+    align-items: center;
+    border-radius: 2rem;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+.desktopmenulists:hover{
+    color: yellow;
+    border-bottom: 0.5rem solid yellow;
+}
+@media screen and (max-width:400px) {
+    .navbar{
+        font-size: 2vw;
+    }
+
+}
+
+.active{
+    color: yellow;
+    background-color: rgb(4, 3, 3);
+}
+
+.burgermenu{
+position: absolute;
+top: 4rem;
+right: 2rem;
+z-index: 2;
+display: flex;
+flex-direction: column;
+padding: 1rem;
+height: fit-content;
+min-width: 15rem;
+background-color: rgb(50, 24, 74);
+border-radius: 1rem;
+}
+
+.listItem{
+color: aqua;
+padding: 0.25rem 1rem;
+margin: 0.25rem;
+background-color: rgb(64, 32, 95);
+}
+
+.mobmenu{
+    object-fit: cover;
+    height: 3rem;
+}
